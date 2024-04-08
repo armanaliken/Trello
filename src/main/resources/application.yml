@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/bitlab?currentSchema=trello
+    username: postgres
+    password: Arman!05
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
